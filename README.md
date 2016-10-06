@@ -176,7 +176,7 @@ diff --git a/js/xpconnect/src/XPCComponents.cpp b/js/xpconnect/src/XPCComponents
      if (!moduleloader)
 ```
 
-Then recompile Firefox, and pipe its output into `node index.js`, for example like this:
+Then recompile Firefox, run it, and pipe its output into `node index.js`, for example like this:
 
 ```
 mach run -P testpilot | node ~/code/module-profiling/index.js - > output.txt
